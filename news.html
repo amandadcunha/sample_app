@@ -18,7 +18,7 @@
 			var term=$('#search_term').val();
 
 			$.ajax({
-				url:'https://newsapi.org/v2/everything?q=' + term +'&apiKey=bfd8a36713a94c2cb9fc6869ac805bd5',
+				url:'https://newsapi.org/v2/everything?q=tesla&from=2021-03-28&sortBy=publishedAt&apiKey=bfd8a36713a94c2cb9fc6869ac805bd5',
 				success:function(data){
 					$('#result').empty();
 
