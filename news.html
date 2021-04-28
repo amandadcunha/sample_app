@@ -31,7 +31,7 @@
 
 				},
 				error:function(){
-					alert("Some error occured");
+					alert("Some error occured2");
 				}
 			})
 
@@ -40,7 +40,7 @@
 
 
 		$.ajax({
-			url:"https://newsapi.org/v2/top-headlines?country=jp&apiKey=bfd8a36713a94c2cb9fc6869ac805bd5",
+			url:"https://newsapi.org/v2/everything?q=tesla&from=2021-03-28&sortBy=publishedAt&apiKey=bfd8a36713a94c2cb9fc6869ac805bd5",
 			success:function(data){
 
 				for (var i in data.articles){
@@ -52,7 +52,7 @@
 
 			},
 			error:function(){
-				alert('Some error occured');
+				alert('Some error occured1');
 			}
 		})
 
